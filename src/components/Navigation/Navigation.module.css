@@ -1,0 +1,28 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #ff9830;
+    border-bottom: 3px solid rgba(113, 102, 106, 0.467);
+    padding-top: 20px;
+}
+
+.link {
+    width: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(29, 11, 11);
+    margin-right: 12px;
+}
+
+.link:first-child {
+    margin-left: 20px;
+}
+
+.link:last-child {
+    margin-right: 0;
+}
+
+.active {
+    color: rgb(255, 255, 255);
+}
